@@ -11,3 +11,6 @@ select substr('Hello World',1,5);
 select replace('Hello World','Hello','Hey');
 
 select length(fname) from employees;
+
+select * from employees where length(fname)>=6;
+
