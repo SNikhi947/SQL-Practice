@@ -1,0 +1,12 @@
+select concat('hello','world');
+
+select concat(fname,lname) from employees;
+
+select concat(fname,lname) as Fullname from employees;
+
+select concat_ws(' ',fname,lname) as Fullname from employees;
+
+select substr('Hello World',1,5);
+
+select replace('Hello World','Hello','Hey');
+
