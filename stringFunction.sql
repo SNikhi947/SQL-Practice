@@ -14,3 +14,6 @@ select length(fname) from employees;
 
 select * from employees where length(fname)>=6;
 
+select Upper(fname) from employees;
+
+select lower(fname) from employees;
