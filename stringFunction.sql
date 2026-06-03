@@ -17,3 +17,9 @@ select * from employees where length(fname)>=6;
 select Upper(fname) from employees;
 
 select lower(fname) from employees;
+
+select left(fname,4) from employees;
+
+select right(fname,4) from employees;
+
+select trim(' nikhil        ');
