@@ -20,3 +20,5 @@ select min(salary),dept from employees group by dept ;
 
 select max(salary) from employees;
 
+select dept,avg(salary) from employees group by dept;
+
