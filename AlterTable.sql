@@ -7,4 +7,3 @@ ALTER TABLE employees RENAME COLUMN emp_id to e_id;
 ALTER TABLE employees 
 alter column lname
 set data type varchar(60);
-
